@@ -142,7 +142,7 @@ return [
         'client_id'     => env('HSCAUTH_APP_ID'),
         'client_secret' => env('HSCAUTH_APP_SECRET'),
         'redirect'      => env('APP_URL') . '/login/service/laravelpassport/callback',
-        'base_url'      => env('HSCAUTH_BASE_URL'),
+        'host'      => env('HSCAUTH_BASE_URL'),
         'name'          => env('HSCAUTH_NAME', 'HSC Auth'),
         'auto_register' => env('HSCAUTH_AUTO_REGISTER', false),
         'auto_confirm'  => env('HSCAUTH_AUTO_CONFIRM_EMAIL', false),
