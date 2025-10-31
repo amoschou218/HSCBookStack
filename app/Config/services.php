@@ -138,4 +138,14 @@ return [
         'thumbnail_attribute'    => env('LDAP_THUMBNAIL_ATTRIBUTE', null),
     ],
 
+    'hscauth' => [
+        'client_id'     => env('HSCAUTH_APP_ID'),
+        'client_secret' => env('HSCAUTH_APP_SECRET'),
+        'redirect'      => env('APP_URL') . '/login/service/hscauth/callback',
+        'base_url'      => env('HSCAUTH_BASE_URL'),
+        'name'          => 'HSC Auth',
+        'auto_register' => env('HSCAUTH_AUTO_REGISTER', false),
+        'auto_confirm'  => env('HSCAUTH_AUTO_CONFIRM_EMAIL', false),
+    ],
+
 ];
