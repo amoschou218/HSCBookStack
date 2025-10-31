@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7695cb9945ec550970c67da96934daf",
+    "content-hash": "5168ade59d0f02722113c4287fe985d5",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -5051,6 +5051,56 @@
                 "source": "https://github.com/SocialiteProviders/GitLab/tree/4.1.0"
             },
             "time": "2020-12-01T23:10:59+00:00"
+        },
+        {
+            "name": "socialiteproviders/laravelpassport",
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SocialiteProviders/Laravel-Passport.git",
+                "reference": "5ee785624a0fc5ee4b18922e1295a63729074285"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SocialiteProviders/Laravel-Passport/zipball/5ee785624a0fc5ee4b18922e1295a63729074285",
+                "reference": "5ee785624a0fc5ee4b18922e1295a63729074285",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.4 || ^8.0",
+                "socialiteproviders/manager": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SocialiteProviders\\LaravelPassport\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "recca0120",
+                    "email": "recca0120@name.com"
+                }
+            ],
+            "description": "LaravelPassport OAuth2 Provider for Laravel Socialite",
+            "keywords": [
+                "laravel",
+                "oauth",
+                "passport",
+                "provider",
+                "socialite"
+            ],
+            "support": {
+                "docs": "https://socialiteproviders.com/laravelpassport",
+                "issues": "https://github.com/socialiteproviders/providers/issues",
+                "source": "https://github.com/socialiteproviders/providers"
+            },
+            "time": "2022-08-10T23:31:11+00:00"
         },
         {
             "name": "socialiteproviders/manager",
