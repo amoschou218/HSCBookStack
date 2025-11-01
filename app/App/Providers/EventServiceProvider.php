@@ -2,7 +2,7 @@
 
 namespace BookStack\App\Providers;
 
-use Bookstack\Hsc\HscAuthExtendSocialite;
+use BookStack\Hsc\HscAuthExtendSocialite;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use SocialiteProviders\Azure\AzureExtendSocialite;
 use SocialiteProviders\Discord\DiscordExtendSocialite;

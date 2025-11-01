@@ -1,6 +1,6 @@
 <?php
 
-namespace Bookstack\Hsc;
+namespace BookStack\Hsc;
 
 use SocialiteProviders\LaravelPassport\Provider;
 use SocialiteProviders\Manager\SocialiteWasCalled;
