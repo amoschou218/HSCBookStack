@@ -32,7 +32,7 @@ class SocialAuthService
         $socialDriver = trim(strtolower($socialDriver));
         $this->driverManager->ensureDriverActive($socialDriver);
 
-        return $this->getDriverForRedirect($socialDriver)->with(['key' => 'example.com'])->redirect();
+        return $this->getDriverForRedirect($socialDriver)->with(['prompt' => 'consent'])->redirect();
     }
 
     /**
