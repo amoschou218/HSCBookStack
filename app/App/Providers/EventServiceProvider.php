@@ -2,11 +2,11 @@
 
 namespace BookStack\App\Providers;
 
+use Bookstack\Hsc\HscAuthExtendSocialite;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use SocialiteProviders\Azure\AzureExtendSocialite;
 use SocialiteProviders\Discord\DiscordExtendSocialite;
 use SocialiteProviders\GitLab\GitLabExtendSocialite;
-use SocialiteProviders\LaravelPassport\LaravelPassportExtendSocialite;
 use SocialiteProviders\Manager\SocialiteWasCalled;
 use SocialiteProviders\Okta\OktaExtendSocialite;
 use SocialiteProviders\Twitch\TwitchExtendSocialite;
@@ -25,7 +25,7 @@ class EventServiceProvider extends ServiceProvider
             GitLabExtendSocialite::class . '@handle',
             TwitchExtendSocialite::class . '@handle',
             DiscordExtendSocialite::class . '@handle',
-            LaravelPassportExtendSocialite::class . '@handle',
+            HscAuthExtendSocialite::class . '@handle',
         ],
     ];
 

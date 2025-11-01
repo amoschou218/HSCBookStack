@@ -25,7 +25,7 @@ class SocialDriverManager
         'gitlab',
         'twitch',
         'discord',
-        'laravelpassport',
+        'hscauth',
     ];
 
     /**

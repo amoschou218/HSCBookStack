@@ -138,10 +138,10 @@ return [
         'thumbnail_attribute'    => env('LDAP_THUMBNAIL_ATTRIBUTE', null),
     ],
 
-    'laravelpassport' => [
+    'hscauth' => [
         'client_id'     => env('HSCAUTH_APP_ID'),
         'client_secret' => env('HSCAUTH_APP_SECRET'),
-        'redirect'      => env('APP_URL') . '/login/service/laravelpassport/callback',
+        'redirect'      => env('APP_URL') . '/login/service/hscauth/callback',
         'host'      => env('HSCAUTH_BASE_URL'),
         'name'          => env('HSCAUTH_NAME', 'HSC Auth'),
         'auto_register' => env('HSCAUTH_AUTO_REGISTER', false),
