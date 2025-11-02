@@ -33,6 +33,7 @@ class SocialAuthService
         $this->driverManager->ensureDriverActive($socialDriver);
 
         return $this->getDriverForRedirect($socialDriver)->with(['prompt' => 'consent'])->redirect();
+        // edit: ->with()
     }
 
     /**
